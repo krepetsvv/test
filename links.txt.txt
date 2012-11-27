@@ -1,0 +1,85 @@
+http://cloe.hostopia.com/cgi-bin/pycloe/cloe.py?domain=cm4alltechtest.com#    //cloe питон
+
+http://cloe.qahostopia.com
+ibrysin / 2101IB..
+
+http://pigsqa.hostopia.com
+ibrysin / hah2DahZ
+administrator / hah2DahZ
+
+http://pigsqa.hostopia.com/pwi/
+VODAIE:admin | hah2DahZ
+
+http://cloe.hostopia.com
+vivanovskiy | 1989IVanovskiy!!
+
+
+
+###########DB#################
+mysql -h admin1c50.hostopia.eu -uwater -pDjljajy!
+mysql -h admin.qahostopia.com -uwater -pDjljajy!
+mysql -h admin.devhostopia.com -u puzzle -p
+Pass: )J&d7pQ1
+add APP
+ insert into PANELACCESS(`Entry`,`User`,`AppID`,`Version`,`HostopianID`) values('','','easymail3','*','2418');
+
+ $hostname = array('admin.hostopia.com','admin1c25.carrierzone.com','admin1c50.hostopia.eu');
+  4 $username = 'plantain';
+  5 $passworddb = 'X76viz#V';
+  6 $wcontrol = 'w3Control';
+
+ 
+mysql source -h admin.devhostopia.com -uwater -pDjljajy!  //voda
+#voda
+(11/1/2012 4:50:34 PM) Sergey Mashentsev: vapi1.hostopia.eu
+(4:51:04 PM) Sergey Mashentsev: web0c50.megawebservers.eu
+(4:51:45 PM) Sergey Mashentsev: qa /services/webpages/w/a/warpcore.websiteos.com/
+stage /services/webpages/s/t/staging.websiteos.com
+live /services/webpages/f/u/future.websiteos.com/public
+(4:52:11 PM) Sergey Mashentsev: /services/webpages/w/a/warpcore.websiteos.com/tools
+(4:54:35 PM) Sergey Mashentsev: /services/webpages/h/o/hosting.testsitesc50.hostopia.eu/public/
+relise.sh name(svn) revision branding(only QA)
+пользователя с доменом
+select c.Username,c.Password,c.VHSPID,d.Domain from CUSTOMERS c,DOMAINS d where c.OpCoId=2362 and d.VHSPID=c.VHSPID;
+р ком анубис
+#####
+##############################
+
+
+####################.vimrc####################
+syntax on
+set nocompatible
+set nowrap
+set bg=light
+set guifont=9x15bold
+set nobackup
+set ts=4
+set showcmd
+set autoindent
+set smartindent
+set shiftwidth=4
+set backspace=indent,eol,start
+set wrap
+set linebreak
+set number
+"set mouse=a
+
+"colorscheme darkblue
+colorscheme elflord
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,koi8-r,cp1251
+
+set laststatus=2
+set incsearch
+
+"set cursorline
+set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&encoding}\ %b\ 0x%B\ %l,%c%V\ %P
+nmap <F3> o@file_put_contents('/tmp/vkrepets', __FILE__.':'.__LINE__ . ' ' . date('c') . ' ' . print_r(, 1)."\n", FILE_APPEND \|            FILE_TEXT);             <esc>9bli
+inoremap <F3> <esc>o@file_put_contents('/tmp/vkrepets', __FILE__.':'.__LINE__ . ' ' . date('c') . ' ' . print_r(, 1)."\n", FILE_APPEND      \|                FILE_TEXT);<esc>9bli
+imap <F11> <Esc>:set<Space>nu!<CR>a
+nmap <F11> :set<Space>nu!<CR>
+##############################################
+
+############unix#############
+sed -i 's/webservice-stage-new-live/webservice-qa/g' ./*  //замена
