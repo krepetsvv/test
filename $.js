@@ -1,9 +1,18 @@
 var help ={
+init : function ()
+{
+	$('[info]').each(function(){
+		this.onmouseover=help.start;
+		this.onmouseout=help.del;
+	});
+},
 start : function (event)
 {
-	this.x = event.clientX;
-    this.y = event.clientY;
-	this.startId = setTimeout(this.create, 1000);
+	help.x = event.clientX;
+    help.y = event.clientY;
+	help.infoText = $(this).attr('infoText');
+	//alert(this);
+	help.startId = setTimeout(help.create, 1000);
 },
 create : function ()
 {
@@ -24,7 +33,7 @@ create : function ()
 	div.style.borderRadius="5%";
 	anim.style.overflow="hidden";
 	anim.style.width="10px";
-	div.innerHTML=('text text text text text');
+	div.innerHTML=help.infoText;
 	anim.appendChild(div);
 	document.body.appendChild(anim);
 	var step = (width -10)/60;
@@ -45,12 +54,12 @@ create : function ()
 },
 del : function ()
 {
-	clearTimeout(this.startId);
+	clearTimeout(help.startId);
 	element = document.getElementById("helpSpan");
 	if (element)
 	{
 	element.parentNode.removeChild(element);
-	clearInterval(this.id);
+	clearInterval(help.id);
 	}
 }
 }
